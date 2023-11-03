@@ -7,12 +7,12 @@ function App() {
   });
   const [gessedLetters, setGuessedLetters] = useState<string[]>([]);
 
-  console.log(wordToGuesse);
+  // console.log(wordToGuesse);
 
   return (
     <>
       <div className="app">
-        <h1>Hello </h1>
+        <div className="result">Lose Win</div>
       </div>
     </>
   );
